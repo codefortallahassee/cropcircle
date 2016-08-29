@@ -1,0 +1,24 @@
+{
+  "name": "cropcircle",
+  "authors": [
+    "bpeterso2000 <bpeterso2000@yahoo.com>"
+  ],
+  "description": "component to interactively crop images in the shape of a circle or a square",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://www.codefortallahassee.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery.redirect": "*",
+    "Croppie": "croppie#^2.3.0",
+    "jquery": "^3.1.0"
+  }
+}

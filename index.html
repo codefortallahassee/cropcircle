@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Crop Circle</title>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery.redirect/jquery.redirect.js"></script>
+
+  <script src="bower_components/Croppie/croppie.min.js"></script>
+  <link rel="stylesheet" href="bower_components/Croppie/croppie.css" />
+
+  <script src="bower_components/boostrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+  <script src="cropcircle.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Upload Photo <small>Crop Circle</small></h1>
+  </div>
+  <div class="col-md-4 center-block">
+    <div id="crop"></div>
+      <form id="form">
+        <div class="form-group">
+          <label class="btn btn-default btn-file">
+            Choose File <input type="file" id="upload" style="display: none;">
+          </label>
+          <button type="button" class="btn btn-primary" id="save">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
